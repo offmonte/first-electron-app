@@ -1,0 +1,24 @@
+{
+  "name": "first-electron-app",
+  "version": "1.0.0",
+  "description": "My first electron app",
+  "homepage": "https://github.com/offmonte/first-electron-app#readme",
+  "bugs": {
+    "url": "https://github.com/offmonte/first-electron-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offmonte/first-electron-app.git"
+  },
+  "license": "MIT",
+  "author": "Lucas Monte",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^39.2.4"
+  }
+}
